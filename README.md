@@ -89,18 +89,57 @@ Sample Output (One Row)
 
 This table illustrates the format of a typical row produced by the Tone–Confidence Benchmark.
 
-+------------------+--------------------------------------------------------------------------+--------------------------------------------------------------+
-| Column           | Example Value                                                            | Description                                                  |
-+------------------+--------------------------------------------------------------------------+--------------------------------------------------------------+
-| id               | 1                                                                        | Numerical ID for the question                                |
-| question         | Is the Earth round?                                                      | The original factual question                                |
-| tone             | neutral                                                                  | One of the 7 tone conditions                                 |
-| answer           | Yes, the Earth is round, but it is not a perfect sphere...               | Parsed model answer                                          |
-| confidence       | 100                                                                      | Model-reported confidence (0–100)                            |
-| correct_answer   | Yes                                                                      | Ground-truth label                                           |
-| raw_response     | Answer: Yes, the Earth is round, but it is not...                        | Full unprocessed model output                                |
-| model            | gpt-4o                                                                   | Name of the model that generated the response                |
-+------------------+--------------------------------------------------------------------------+--------------------------------------------------------------+
+
+<h3>Sample Output (One Row)</h3>
+
+<table>
+  <tr>
+    <th>Column</th>
+    <th>Example Value</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>id</td>
+    <td>1</td>
+    <td>Numerical ID for the question</td>
+  </tr>
+  <tr>
+    <td>question</td>
+    <td>Is the Earth round?</td>
+    <td>The original factual question</td>
+  </tr>
+  <tr>
+    <td>tone</td>
+    <td>neutral</td>
+    <td>One of the 7 tone conditions</td>
+  </tr>
+  <tr>
+    <td>answer</td>
+    <td>Yes, the Earth is round, but it is not a perfect sphere...</td>
+    <td>Parsed model answer</td>
+  </tr>
+  <tr>
+    <td>confidence</td>
+    <td>100</td>
+    <td>Model-reported confidence (0–100)</td>
+  </tr>
+  <tr>
+    <td>correct_answer</td>
+    <td>Yes</td>
+    <td>Ground-truth label</td>
+  </tr>
+  <tr>
+    <td>raw_response</td>
+    <td>Answer: Yes, the Earth is round, but it is not...</td>
+    <td>Full unprocessed model output</td>
+  </tr>
+  <tr>
+    <td>model</td>
+    <td>gpt-4o</td>
+    <td>Name of the model that generated the response</td>
+  </tr>
+</table>
+
 
 
 Each row contains:
