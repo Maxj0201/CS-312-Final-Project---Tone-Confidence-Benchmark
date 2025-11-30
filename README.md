@@ -85,6 +85,46 @@ Full comparative figures
 Summary metrics tables
 All figures appear inline and require no manual configuration.
 
+Sample Output (One Row)
+
+This table illustrates the format of a typical row produced by the Tone–Confidence Benchmark.
+Column	Example Value	Description
+id	1	Numerical ID for the question
+question	Is the Earth round?	The original factual question
+tone	neutral	One of the 7 tone conditions
+answer	Yes, the Earth is round, but it is not a perfect sphere...	Parsed model answer
+confidence	100	Model’s reported confidence (0–100)
+correct_answer	Yes	Ground‐truth label
+raw_response	Answer: Yes, the Earth is round, but it is not...	Full unprocessed model output
+model	gpt-4o	Name of the model that generated the response
+
+Each row contains:
+
+id: numerical question ID
+
+question: the original factual statement
+
+tone: one of 7 tone conditions
+
+answer: the model’s extracted answer
+
+confidence: parsed numerical confidence (0–100)
+
+correct_answer: the ground-truth label
+
+raw_response: the full model output before parsing
+
+model: either gpt-4o or llama-3.1-8b-instant
+
+Full Outputs
+
+The complete outputs for all 50 questions × 7 tones × 2 models are saved in:
+
+results_tone_confidence_gpt4o.csv
+results_tone_confidence_groq.csv
+
+These CSVs contain everything needed to reproduce all figures and statistical analyses in the notebook without rerunning the model loops.
+
 5. Notes on Reproducibility
    
 Llama-3.1-8B (Groq)
