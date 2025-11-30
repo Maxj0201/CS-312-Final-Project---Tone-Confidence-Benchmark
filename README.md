@@ -1,8 +1,4 @@
 # CS-312-Final-Project---Tone-Confidence-Benchmark
-/* THIS CODE IS MY OWN WORK . IT WAS WRITTEN WITHOUT
-CO NS UL TI NG CODE WRITTEN BY OTHER STUDENTS OR RELYING
-SOLELY ON LARGE LANGUAGE MODELS SUCH AS CHATGPT .
-[ Max Jiang ] */
 
 Tone–Confidence Benchmark
 This repository implements the Tone–Confidence Benchmark, a systematic evaluation of how large language models adjust their reported confidence when identical factual questions are framed in different tones. The project includes complete experimental code, analysis tools, and reproducibility instructions.
@@ -118,3 +114,8 @@ Fix: Ensure .env file exists and kernel is restarted.
 
 Issue: Calibration bins contain too few samples
 Fix: This is expected with a small dataset and does not affect overall results.
+
+/* THIS CODE IS MY OWN WORK . IT WAS WRITTEN WITHOUT
+CO NS UL TI NG CODE WRITTEN BY OTHER STUDENTS OR RELYING
+SOLELY ON LARGE LANGUAGE MODELS SUCH AS CHATGPT .
+[ Max Jiang ] */
