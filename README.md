@@ -4,6 +4,7 @@ Tone–Confidence Benchmark
 This repository implements the Tone–Confidence Benchmark, a systematic evaluation of how large language models adjust their reported confidence when identical factual questions are framed in different tones. The project includes complete experimental code, analysis tools, and reproducibility instructions.
 
 1. Project Overview
+   
 The benchmark compares:
 Llama-3.1-8B-Instant (via Groq API)
 GPT-4o (via OpenAI API)
@@ -34,8 +35,10 @@ Calibration curves
 Cross-model comparisons
 
 2. File Structure
-Tone_Confidence_Project.ipynb
-Main notebook containing the full experiment. The notebook is organized into 6 sections:
+   
+Tone_Confidence_Project.ipynb- Main notebook containing the full experiment. 
+
+The notebook is organized into 6 sections:
 Experimental Setup
 Benchmark Questions Dataset (50 Items)
 Llama-3.1-8B Tone–Confidence Benchmark
@@ -51,11 +54,13 @@ results_tone_confidence_gpt4o.csv
 GPT-4o benchmark outputs.
 
 3. Running the Project
+   
 Option A — Use the existing results (recommended)
 If questions.csv and both results CSVs are already included:
 You do NOT need to rerun the model query loops.
 All plots, metrics, calibration curves, and summary tables will load directly.
 You may begin at Section 3.2 of the notebook (Llama) and Section 4.3 (GPT-4o), or at Section 5 for combined analysis.
+
 Option B — Reproduce all results from scratch
 To generate fresh outputs:
 Install dependencies:
@@ -68,7 +73,8 @@ Section 3.1 (Llama query loop)
 Section 4.2 (GPT-4o query loop)
 New CSVs will be saved automatically.
 
-4. Expected Outputs
+5. Expected Outputs
+   
 Running the notebook produces:
 CSV outputs for each model
 Accuracy and confidence bar plots
@@ -80,7 +86,8 @@ Full comparative figures
 Summary metrics tables
 All figures appear inline and require no manual configuration.
 
-5. Notes on Reproducibility
+7. Notes on Reproducibility
+   
 Llama-3.1-8B (Groq)
 Random seed has been set
 Fully deterministic with temperature=0.
@@ -95,6 +102,7 @@ Static CSVs
 If the included CSVs are used, all numerical results will match the plots and analyses exactly.
 
 6. Recommended Workflow for Readers
+   
 If the goal is analysis or replication without contacting the APIs:
 Keep the provided results_tone_confidence_*.csv files.
 Run the notebook starting at the analysis portions:
@@ -105,7 +113,8 @@ Skip all model-query cells to avoid API cost and speed constraints.
 If the goal is to re-evaluate using updated models:
 Rerun both query loops in Sections 3.1 and 4.2.
 
-7. Troubleshooting
+8. Troubleshooting
+   
 Issue: Notebook errors due to missing confidence values
 Fix: Regenerate CSVs using the full loops.
 
