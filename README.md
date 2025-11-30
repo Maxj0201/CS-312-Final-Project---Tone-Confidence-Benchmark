@@ -89,17 +89,19 @@ Sample Output (One Row)
 
 This table illustrates the format of a typical row produced by the Tone–Confidence Benchmark.
 
-<br>
-Column	Example Value	Description
-id	1	Numerical ID for the question
-question	Is the Earth round?	The original factual question
-tone	neutral	One of the 7 tone conditions
-answer	Yes, the Earth is round, but it is not a perfect sphere...	Parsed model answer
-confidence	100	Model-reported confidence (0–100)
-correct_answer	Yes	Ground truth label
-raw_response	Answer: Yes, the Earth is round, but it is not...	Full unprocessed model output
-model	gpt-4o	Model used to generate the response
-<br>
++------------------+--------------------------------------------------------------------------+--------------------------------------------------------------+
+| Column           | Example Value                                                            | Description                                                  |
++------------------+--------------------------------------------------------------------------+--------------------------------------------------------------+
+| id               | 1                                                                        | Numerical ID for the question                                |
+| question         | Is the Earth round?                                                      | The original factual question                                |
+| tone             | neutral                                                                  | One of the 7 tone conditions                                 |
+| answer           | Yes, the Earth is round, but it is not a perfect sphere...               | Parsed model answer                                          |
+| confidence       | 100                                                                      | Model-reported confidence (0–100)                            |
+| correct_answer   | Yes                                                                      | Ground-truth label                                           |
+| raw_response     | Answer: Yes, the Earth is round, but it is not...                        | Full unprocessed model output                                |
+| model            | gpt-4o                                                                   | Name of the model that generated the response                |
++------------------+--------------------------------------------------------------------------+--------------------------------------------------------------+
+
 
 Each row contains:
 
