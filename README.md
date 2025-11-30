@@ -1,6 +1,5 @@
 # CS-312-Final-Project---Tone-Confidence-Benchmark
 
-Tone–Confidence Benchmark
 This repository implements the Tone–Confidence Benchmark, a systematic evaluation of how large language models adjust their reported confidence when identical factual questions are framed in different tones. The project includes complete experimental code, analysis tools, and reproducibility instructions.
 
 1. Project Overview
