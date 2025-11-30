@@ -73,7 +73,7 @@ Section 3.1 (Llama query loop)
 Section 4.2 (GPT-4o query loop)
 New CSVs will be saved automatically.
 
-5. Expected Outputs
+4. Expected Outputs
    
 Running the notebook produces:
 CSV outputs for each model
@@ -86,7 +86,7 @@ Full comparative figures
 Summary metrics tables
 All figures appear inline and require no manual configuration.
 
-7. Notes on Reproducibility
+5. Notes on Reproducibility
    
 Llama-3.1-8B (Groq)
 Random seed has been set
@@ -113,7 +113,7 @@ Skip all model-query cells to avoid API cost and speed constraints.
 If the goal is to re-evaluate using updated models:
 Rerun both query loops in Sections 3.1 and 4.2.
 
-8. Troubleshooting
+7. Troubleshooting
    
 Issue: Notebook errors due to missing confidence values
 Fix: Regenerate CSVs using the full loops.
