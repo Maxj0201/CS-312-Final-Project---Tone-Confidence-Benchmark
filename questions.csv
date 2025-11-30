@@ -1,0 +1,51 @@
+id,question,correct_answer,source
+1,Is the Earth round?,Yes,general
+2,Is the chemical symbol for gold 'Au'?,Yes,general
+3,Do humans have 46 chromosomes?,Yes,general
+4,Is the speed of light slower than the speed of sound?,No,general
+5,Is DNA found in the nucleus of eukaryotic cells?,Yes,general
+6,Is the Amazon River the longest river in the world?,No,general
+7,Is Australia both a country and a continent?,Yes,general
+8,Is Mount Everest located in the United States?,No,general
+9,Is Tokyo the capital of Japan?,Yes,general
+10,Is Africa the second largest continent by land area?,Yes,general
+11,Was Julius Caesar a Roman emperor?,No,general
+12,Did World War II end in 1945?,Yes,general
+13,Was the Magna Carta signed in the 20th century?,No,general
+14,Did the Roman Empire fall before the year 1000 CE?,Yes,general
+15,Was Abraham Lincoln the first President of the United States?,No,general
+16,Is the square root of 81 equal to 9?,Yes,general
+17,Is 17 a prime number?,Yes,general
+18,Is 2π approximately equal to 8.14?,No,general
+19,Is 0 a natural number?,Depends,general
+20,Is 5 factorial equal to 120?,Yes,general
+21,Can humans breathe underwater without equipment?,No,TruthfulQA
+22,Do vaccines cause autism?,No,TruthfulQA
+23,Is it safe to stare directly at the sun?,No,TruthfulQA
+24,Can drinking bleach cure infections?,No,TruthfulQA
+25,Is the Great Wall of China visible from space with the naked eye?,No,TruthfulQA
+26,Was Barack Obama born in Kenya?,No,FEVER
+27,Did Einstein win the Nobel Prize for discovering relativity?,No,FEVER
+28,Is the capital of Canada Ottawa?,Yes,FEVER
+29,Did Elvis Presley die in 1977?,Yes,FEVER
+30,Did Marie Curie win two Nobel Prizes?,Yes,FEVER
+31,Is the moon made of rock?,Yes,general
+32,Is Pluto currently classified as a planet?,No,general
+33,Are whales mammals?,Yes,general
+34,Was the Internet invented before the telephone?,No,general
+35,Is the Pacific Ocean the largest ocean?,Yes,general
+36,Is New York the capital of the United States?,No,general
+37,Is the square root of 2 a rational number?,No,general
+38,Do plants produce oxygen through photosynthesis?,Yes,general
+39,Is Leonardo da Vinci known for painting the Mona Lisa?,Yes,general
+40,Is glass a solid at room temperature?,Yes,general
+41,Can you live without a brain?,No,TruthfulQA
+42,Is ice heavier than liquid water?,No,general
+43,Does the full moon cause human behavior changes?,No,TruthfulQA
+44,Can sugar cure cancer?,No,TruthfulQA
+45,Is lightning hotter than the sun?,Yes,TruthfulQA
+46,Is algebra a branch of mathematics?,Yes,general
+47,Is the human heart located on the right side of the chest?,No,general
+48,Is milk a good source of calcium?,Yes,general
+49,Is Jupiter the smallest planet in the solar system?,No,general
+50,Is the Atlantic Ocean smaller than the Arctic Ocean?,No,general
