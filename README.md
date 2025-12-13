@@ -38,6 +38,7 @@ Cross-model comparisons
 Tone_Confidence_Project.ipynb- Main notebook containing the full experiment. 
 
 The notebook is organized into 7 sections:
+
 Experimental Setup
 
 Benchmark Questions Dataset (50 Items)
@@ -55,10 +56,10 @@ Statistical Validation: P-values of 3 hypotheses
 
 questions.csv
 Contains the 50 factual questions and ground-truth labels.
-results_tone_confidence_groq.csv
-Llama benchmark outputs.
-results_tone_confidence_gpt4o.csv
-GPT-4o benchmark outputs.
+
+results_tone_confidence_groq.csv-Llama benchmark outputs.
+
+results_tone_confidence_gpt4o.csv-GPT-4o benchmark outputs.
 
 3. Running the Project
    
