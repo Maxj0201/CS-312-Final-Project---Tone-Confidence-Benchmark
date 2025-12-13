@@ -38,11 +38,11 @@ Cross-model comparisons
 Tone_Confidence_Project.ipynb- Main notebook containing the full experiment. 
 
 questions.csv
-Contains the 50 factual questions and ground-truth labels.
+contains the 50 factual questions and ground-truth labels.
 
-results_tone_confidence_groq.csv-Llama benchmark outputs.
+results_tone_confidence_groq.csv contains Llama benchmark outputs.
 
-results_tone_confidence_gpt4o.csv-GPT-4o benchmark outputs.
+results_tone_confidence_gpt4o.csv contains GPT-4o benchmark outputs.
 
 
 The notebook is organized into 7 sections:
