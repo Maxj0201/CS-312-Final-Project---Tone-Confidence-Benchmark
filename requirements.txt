@@ -1,0 +1,28 @@
+# Core numerical and data handling
+numpy
+pandas
+
+# Visualization
+matplotlib
+seaborn
+
+# Progress bars
+tqdm
+
+# Statistical analysis
+scipy
+statsmodels
+
+# LLM API clients
+openai
+groq
+
+# Environment variable management (optional but recommended)
+python-dotenv
+
+# LLM API clients (If Needed)
+openai
+groq
+
+# Environment variable management
+python-dotenv
